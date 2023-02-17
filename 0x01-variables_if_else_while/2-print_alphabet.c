@@ -1,16 +1,18 @@
 #include <stdio.h>
-  
+ /**
+  * main- reuren lower-case alphabet
+  * ch: variable alphabet
+  *
+  * Reuren: correctly
+  * */
 int main()
 {
-  
-    /* Get the character to be written */
     char ch = 'a';
-   
     while(ch <= 'z')  
-    {  
-        putchar(ch);	
-        ch++;  
-	putchar('\n');
-    }  
+    {
+	putchar(ch);	
+        ch++;
+    }
+    putchar('\n');
     return (0);
 }
