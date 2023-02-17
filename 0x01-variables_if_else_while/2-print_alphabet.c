@@ -1,5 +1,4 @@
 #include <stdio.h>
-
  /**
   * main -Return lower-case alphabet
   * ch: variable alphabet
