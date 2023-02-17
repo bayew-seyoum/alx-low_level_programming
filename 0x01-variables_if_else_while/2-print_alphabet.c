@@ -1,14 +1,16 @@
 #include <stdio.h>
+
  /**
-  * main -return lower-case alphabet
+  * main -Return lower-case alphabet
   * ch: variable alphabet
   *
   * Return: correctly
+  *
   */
 int main(void)
 {
 	char ch;
-	for (ch = 'a' ;ch <= 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
