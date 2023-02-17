@@ -1,14 +1,14 @@
 #include <stdio.h>
  /**
-  * main -reuren lower-case alphabet
+  * main -return lower-case alphabet
   * ch: variable alphabet
   *
-  * Returen: correctly
+  * Return: correctly
   */
 int main(void)
 {
 	char ch = 'a';
-	while (ch <= 'z')
+	while(ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
