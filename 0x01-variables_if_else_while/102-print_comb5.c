@@ -20,7 +20,7 @@ int main(void)
 				for (l = j + 1; l < 10; l++)
 				{
 					putchar('0' + i);
-					putchar('0' + j;
+					putchar('0' + j);
 					putchar(' ');
 					putchar('0' + k);
 					putchar('0' + l);
@@ -28,7 +28,7 @@ int main(void)
 					{
 					putchar(',');
 					putchar(' ');
-					}
+					};
 				}
 			}
 		}
