@@ -4,7 +4,8 @@
 /**
  * main -print whether variable n is positive or negative.
  * n -random number
- *return: completed accurately
+ *
+ *Return: completed accurately
  */
 int main(void)
 {
