@@ -1,9 +1,9 @@
 #include <stdio.h>
  /**
-  * main - reuren lower-case alphabet
+  * main -reuren lower-case alphabet
   * ch: variable alphabet
   *
-  * Reuren: correctly
+  * Returen: correctly
   */
 int main(void)
 {
