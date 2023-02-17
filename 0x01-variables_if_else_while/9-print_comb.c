@@ -16,7 +16,7 @@ int main(void)
 		putchar('0' + x);
 		if (x == 9)
 		{
-			putchar('$';
+			putchar('$');
 		}
 		else
 		{
