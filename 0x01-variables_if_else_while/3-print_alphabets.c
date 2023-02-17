@@ -3,7 +3,8 @@
  /**
   * main -Return lower-case and upper-case alphabet
   * ch: variable alphabet
-  *Description: prints lower and upper case Eng alphabet
+  *this function prints lower and upper case alphabet
+  *From a-z and A-Z
   * Return: correctly
   *
   */
