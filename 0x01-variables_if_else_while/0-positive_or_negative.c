@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main -print whether the number stored in the variable n is positive or negative.
+ * n -random number
+ *
+ */
 int main(void)
 {
 	int n;
