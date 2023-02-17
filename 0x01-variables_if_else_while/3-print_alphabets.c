@@ -10,6 +10,8 @@
   */
 int main(void)
 {
+	/*lets start by declare a variable*/
+
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
