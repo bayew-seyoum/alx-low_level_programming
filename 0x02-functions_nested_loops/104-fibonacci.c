@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	int i, x = 0, y = 1;
-	unsigned long int z;
+	int i;
+	unsigned long int x = 0, y = 1, z;
 
 	for (i = 1; i <= 98; i++)
 	{
