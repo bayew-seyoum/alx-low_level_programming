@@ -1,4 +1,4 @@
-#include "main.h"
+#include "1-main.h"
 
 /**
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line.
@@ -7,7 +7,7 @@
  * Return: always 0;
  *
  */
-void print_alphabet()
+void print_alphabet(void)
 {
 	char ch;
 
