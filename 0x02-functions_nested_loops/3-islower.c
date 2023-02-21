@@ -4,7 +4,7 @@
  *
  * @c: character
  *
- * Return: zero
+ * Return:one or  zero
  *
  */
 
