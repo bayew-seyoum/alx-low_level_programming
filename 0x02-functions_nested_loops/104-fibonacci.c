@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i;
-	unsigned long int x = 0, y = 1, z;
+	unsigned long long int x = 0, y = 1, z;
 
 	for (i = 1; i <= 98; i++)
 	{
