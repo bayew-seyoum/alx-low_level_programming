@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i;
-	long double x = 0, y = 1, z;
+	double x = 0, y = 1, z;
 
 	for (i = 1; i <= 98; i++)
 	{
