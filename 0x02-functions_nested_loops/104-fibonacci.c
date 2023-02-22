@@ -14,10 +14,10 @@ int main(void)
 		z = x + y;
 		if (i != 98)
 		{
-			printf("%lf, ", z);
+			printf("%Lf, ", z);
 		} else
 		{
-			printf("%lf\n", z);
+			printf("%Lf\n", z);
 		}
 		x = y;
 		y = z;
