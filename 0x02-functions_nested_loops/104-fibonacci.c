@@ -13,12 +13,12 @@ int main(void)
 	float j = i + 1;
 	float k = i + j;
 
-	printf("%0.0f, ", i);
-	printf("%0.0f, ", j);
+	putchar('0' + i);
+	putchar('0' + j);
 	while (counter < 98)
 	{
 		counter++;
-		printf("%0.0f", k);
+		putchar('0' + k);
 		i = j;
 		j = k;
 		k = i + j;
