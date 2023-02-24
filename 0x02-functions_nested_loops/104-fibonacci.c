@@ -14,7 +14,9 @@ int main(void)
 	float k = i + j;
 
 	printf("%.0f", i);
+	printf(", ");
 	printf("%.0f", j);
+	printf(", ");
 	while (counter < 98)
 	{
 		counter++;
