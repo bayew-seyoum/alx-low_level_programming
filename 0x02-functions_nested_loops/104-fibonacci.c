@@ -9,9 +9,9 @@ int main(void)
 {
 	int counter = 2;
 
-	unsigned long i = 1;
-	unsigned long j = i + 1;
-	unsigned long k = i + j;
+	unsigned long i = 1, i1, i2;
+	unsigned long j = i + 1, j1, j2;
+	unsigned long k = i + j, k1, k2;
 
 	printf("%lu", i);
 	printf(", ");
