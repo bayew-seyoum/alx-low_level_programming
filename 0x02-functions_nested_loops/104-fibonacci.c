@@ -9,18 +9,18 @@ int main(void)
 {
 	int counter = 2;
 
-	float i = 1;
-	float j = i + 1;
-	float k = i + j;
+	unsigned long i = 1;
+	unsigned long j = i + 1;
+	unsigned long k = i + j;
 
-	printf("%.0f", i);
+	printf("%lu", i);
 	printf(", ");
-	printf("%.0f", j);
+	printf("%lu", j);
 	printf(", ");
-	while (counter < 98)
+	while (counter < 92)
 	{
 		counter++;
-		printf("%.0f", k);
+		printf("%lu", k);
 		i = j;
 		j = k;
 		k = i + j;
