@@ -51,7 +51,7 @@ int main(void)
 		j2 = k2;
 		if (counter < 98)
 		{
-			printf(", ")
+			printf(", ");
 		}
 	}
 	printf("\n");
