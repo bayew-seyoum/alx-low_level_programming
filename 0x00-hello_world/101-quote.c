@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
 /*
- * main - prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19"'
- *
+ * main: - prints and that piece of art is useful" - Dora Korpar, 2015-10-19",
+ * followed by a new line, to standard error.
+ * @2: line of code
+ * @and that piece of art is useful\" - Dora Korpar, 2015-10-19\n: printed
+ * @59: size of data
  * Return: one
  */
 int main(void)
