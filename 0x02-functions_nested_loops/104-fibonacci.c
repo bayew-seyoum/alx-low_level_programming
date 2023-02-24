@@ -24,7 +24,7 @@ int main(void)
 		i = j;
 		j = k;
 		k = i + j;
-		if (counter < 92)
+		if (counter < 98)
 		{
 			printf(", ");
 		}
