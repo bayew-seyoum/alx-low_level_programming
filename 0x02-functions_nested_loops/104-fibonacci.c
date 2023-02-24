@@ -17,7 +17,7 @@ int main(void)
 	printf(", ");
 	printf("%lu", j);
 	printf(", ");
-	while (counter < 93)
+	while (counter < 922)
 	{
 		counter++;
 		printf("%lu", k);
