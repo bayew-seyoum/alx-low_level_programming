@@ -24,7 +24,7 @@ int main(void)
 		i = j;
 		j = k;
 		k = i + j;
-		if (counter < 93)
+		if (counter < 92)
 		{
 			printf(", ");
 		}
@@ -34,7 +34,7 @@ int main(void)
 	i2 = i % 10000000000;
 	j1 = j / 10000000000;
 	j2 = j % 10000000000;
-	while (counter >= 93 && counter < 98)
+	while (counter >= 92 && counter < 98)
         {
 		counter++;
 		k1 = i1 + j1;
