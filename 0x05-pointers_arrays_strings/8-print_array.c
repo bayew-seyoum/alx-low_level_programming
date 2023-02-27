@@ -5,9 +5,9 @@
  *
  * @a: an arry to print
  * @n: the size of an arry a
- * Return : zero
+ *
  */
-void print_array(int *a, int n) 
+void print_array(int *a, int n)
 {
 	int i;
 
