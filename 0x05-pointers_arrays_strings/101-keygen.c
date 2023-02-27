@@ -4,11 +4,11 @@
 #include <time.h>
   
 /**
- * randomPasswordGeneration - Function to randomly
+ * main - Function to randomly
  * generates password of length N
  * Return: always zero
  */
-void randomPasswordGeneration(void)
+void main(void)
 {
 	int N = 10;
 	int i;
@@ -48,5 +48,5 @@ void randomPasswordGeneration(void)
 			printf("%c", password[i]);
 		}
 	}
-	return ();
+	return (0);
 }
