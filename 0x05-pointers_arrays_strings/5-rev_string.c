@@ -1,7 +1,7 @@
 #include "main.h"
 #include "2-strlen.c"
 /**
- * rev_strig - a function that reverses a string.
+ * rev_string - a function that reverses a string.
  *
  * @s: string to print
  */
