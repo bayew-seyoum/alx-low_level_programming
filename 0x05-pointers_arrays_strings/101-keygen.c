@@ -6,23 +6,20 @@
 /**
  * randomPasswordGeneration - Function to randomly
  * generates password of length N
- * @N: password length
+ * Return: always zero
  */
 void randomPasswordGeneration(void)
 {
-	int N = 10
-	int i = 0;
+	int N = 10;
+	int i;
 	int randomizer = 0;
-	
-	srand((unsigned int)(time(NULL)));
-	
 	char numbers[] = "0123456789";
 	char letter[] = "abcdefghijklmnoqprstuvwyzx";
 	char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
 	char symbols[] = "!@#$^&*?";
-	
 	char password[N];
 
+	srand((unsigned int)(time(NULL)));
 	randomizer = rand() % 4;
 	for (i = 0; i < N; i++)
 	{
@@ -51,5 +48,5 @@ void randomPasswordGeneration(void)
 			printf("%c", password[i]);
 		}
 	}
-	return ("Tada! Congrats");
+	return ();
 }
