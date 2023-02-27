@@ -8,20 +8,19 @@
  * generates password of length N
  * Return: always zero
  */
-void main(void)
+int main(void)
 {
-	int N = 10;
 	int i;
 	int randomizer = 0;
 	char numbers[] = "0123456789";
 	char letter[] = "abcdefghijklmnoqprstuvwyzx";
 	char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
 	char symbols[] = "!@#$^&*?";
-	char password[N];
+	char password[10];
 
 	srand((unsigned int)(time(NULL)));
 	randomizer = rand() % 4;
-	for (i = 0; i < N; i++)
+	for (i = 0; i < 10; i++)
 	{
 		if (randomizer == 1)
 		{
