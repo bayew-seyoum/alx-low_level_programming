@@ -47,5 +47,7 @@ int main(void)
 			printf("%c", password[i]);
 		}
 	}
-	return (0);
+
+	char y = "Tada! Congrats";
+	return y;
 }
