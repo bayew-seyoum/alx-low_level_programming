@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_number -a function that prints an integer.
- * @s: integer to print
+ * @n: integer to print
  */
 void print_number(int n)
 {
