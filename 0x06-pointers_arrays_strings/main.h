@@ -18,4 +18,11 @@ char *cap_string(char *);
 int _indexOf(char a);
 
 char *leet(char *);
+
+int _putchar(char c);
+
+void print_number(int n);
+
+char *rot13(char *s);
+
 #endif
