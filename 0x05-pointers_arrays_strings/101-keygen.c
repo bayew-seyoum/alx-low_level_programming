@@ -1,53 +1,49 @@
-#include <math.h>
 #include <stdio.h>
+#include <unistd.h>
 #include <stdlib.h>
 #include <time.h>
-  
 /**
- * main - Function to randomly
- * generates password of length N
- * Return: always zero
+ * checksum - executes checksum
+ * @s: input char
+ * Return: checksum
+ */
+unsigned long checksum(char *s)
+{
+unsigned long sum = 0;
+while (*s != 0)
+{
+	sum += *s;
+	s++;
+}
+return (sum);
+}
+/**
+ * main - prints password for crakme
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	int i;
-	int randomizer = 0;
-	char numbers[] = "0123456789";
-	char letter[] = "abcdefghijklmnoqprstuvwyzx";
-	char LETTER[] = "ABCDEFGHIJKLMNOQPRSTUYWVZX";
-	char symbols[] = "!@#$^&*?";
-	char password[15];
+	char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQSTUVWXYZ";
+	char s[33];
+	unsigned long sum;
+	int i, flag = 0;
 
-	srand((unsigned int)(time(NULL)));
-	randomizer = rand() % 4;
-	for (i = 0; i < 15; i++)
+	srand(time(NULL));
+	while (flag == 0)
 	{
-		if (randomizer == 1)
+		for (i = 0; i < 33; i++)
 		{
-			password[i] = numbers[rand() % 10];
-			randomizer = rand() % 4;
-			printf("%c", password[i]);
+			s[i] = alpha[rand() % (sizeof(alpha) - 1)];
 		}
-		else if (randomizer == 2)
+		s[i] = '\0';
+		sum = checksum(s);
+		if (sum == 2772)
 		{
-			password[i] = symbols[rand() % 8];
-			randomizer = rand() % 4;
-			printf("%c", password[i]);
-		}
-		else if (randomizer == 3)
-		{
-			password[i] = LETTER[rand() % 26];
-			randomizer = rand() % 4;
-			printf("%c", password[i]);
-		}
-		else
-		{
-			password[i] = letter[rand() % 26];
-			randomizer = rand() % 4;
-			printf("%c", password[i]);
+			flag = 1;
+			printf("%s", s);
 		}
 	}
-
-	char y = "Tada! Congrats";
-	return y;
+return (0);
 }
+
