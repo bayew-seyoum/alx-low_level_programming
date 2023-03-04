@@ -2,6 +2,8 @@
 #define _MAIN_H_
 void _print_rev_recursion(char *s);
 
+unsigned long checksum(char *s);
+
 int _atoi(char *s);
 
 char *_strcpy(char *dest, char *src);
