@@ -15,13 +15,6 @@ void print_diagsums(int *a, int size)
 		{
 			if (i == j)
 				diagsum1 = diagsum1 + a[i][j];
-		}
-	}
-
-	for (i = 0; i < size; i++)
-	{
-		for (j = 0; j < size; j++)
-		{
 			if (i + j == size - 1)
 				diagsum2 = diagsum2 + a[i][j];
 		}
