@@ -7,18 +7,24 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j, sumdiag1 = 0, sumdiag2 = 0, step1, step2;
-
-	for (i = 0; i <= (size - 1); i++)
+	int i, j, diagsum1 = 0, diagsum = 0;
+	
+	for (i = 0; i < size; i++)
 	{
-		step1 =  (size + 1) * i;
-		sumdiag1 = sumdiag1 + *(a + step1);
+		for (j = 0; j < size; j++)
+		{
+			if (i == j)
+				diagsum1 = diagsum1 + a[i][j];
+		}
 	}
 
-	for (j = 1; j <= size; j++)
-	{
-		step2 = (size - 1) * j;
-		sumdiag2 = sumdiag2 + *(a + step2);
-	}
-	printf("%d, %d\n", sumdiag1, sumdiag2);
+	for (i = 0; i < size; i++)
+        {
+                for (j = 0; j < size; j++)
+                {
+                        if (i + j == size -1)
+                                diagsum2 = diagsum2 + a[i][j];
+                }
+        }
+	printf("%d, %d\n", diagsum1, diagsum2);
 }
