@@ -3,7 +3,7 @@
  * _strchr -a function that locates a character in a string.
  * @s: string variable
  * @c: char variable
- * Return: pointer of s[i] = c
+ * Return: the string from character found
  */
 char *_strchr(char *s, char c)
 {
