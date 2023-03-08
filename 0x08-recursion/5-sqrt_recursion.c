@@ -13,6 +13,7 @@ int checker(int n, int i)
         if (i * i > n)
                 return (-1);
         return (checker(i + 1, n));
+}
 /**
  * _sqrt_recursion - a function that returns the natural square root 
  * of a number.
